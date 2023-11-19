@@ -10,3 +10,6 @@ import numpy as np
 import random
 from distutils.version import StrictVersion as Version
 
+from audio.analyzer import AudioAnalyzer
+from audio.helper import ProtectedList
+from audio.thread import SoundThread
